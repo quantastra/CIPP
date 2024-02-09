@@ -573,6 +573,7 @@ export default function CippTable({
         return output
       }
       filtered = filtered.map((item) => flatten(item))
+      const dataFlat = data.map((item) => flatten(item))
 
       let dataFlat
 
